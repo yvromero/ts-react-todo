@@ -21,7 +21,7 @@ export const TodoApp = () => {
     return (
         <div>
             <h1>Lista de Tareas</h1>
-            <div>
+            <div className='flex'>
                 <input 
                 type="text"
                 value={nuevaTarea}
